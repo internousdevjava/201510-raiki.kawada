@@ -9,6 +9,7 @@ public class KisoKadai2{
 		    int b;
 		    BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		      System.out.println("”“–‚ÄƒQ[ƒ€");
+		      System.out.println("1`100‚Ì”ÍˆÍ‚Ì”š‚ğ“ü‚ê‚æ‚¤");
 		      try{
 		      for(b=0;a!=answer;b++){
 		    	  System.out.print("”š‚ğ“ü‚ê‚æ‚¤ : ");

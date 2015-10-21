@@ -7,8 +7,11 @@ public class KisoKadai1 {
     	System.out.print("xとyを入力");
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     	 try{
-    	x = Integer.parseInt(br.readLine());
-        y = Integer.parseInt(br.readLine());
+       System.out.print("\nxを入力:");
+       x = Integer.parseInt(br.readLine());
+       BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
+       System.out.print("yを入力:");
+       y = Integer.parseInt(br1.readLine());
        
     	for(int i=x;i>=1;i--){
     		for(int j=1;j<=y;j++){

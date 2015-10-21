@@ -4,7 +4,7 @@ public class KisoKadai1 {
 	public static void main(String[] args)throws IOException {
 		int x;
     	int y;
-    	System.out.print("x‚Æy‚Ì“ü—Í:");
+    	System.out.print("xã¨yã‚’å…¥åŠ›");
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     	 try{
     	x = Integer.parseInt(br.readLine());
@@ -18,7 +18,7 @@ public class KisoKadai1 {
     	}
         }
         catch(NumberFormatException e){
-	    	  System.err.println("ƒGƒ‰[");
+	    	  System.err.println("ã‚¨ãƒ©ãƒ¼");
 	    	  }
         }
     	}
